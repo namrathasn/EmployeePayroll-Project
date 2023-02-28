@@ -1,0 +1,84 @@
+.header-container{
+  
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+   padding-left: 100px;
+   align-items: center;
+   justify-content: flex-start;
+
+}
+.main-container{
+    height: 120vh;
+    width: 100vw;
+    border: 5px black;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+   
+}
+
+.logo{
+    height: 44px;
+    width: 42px;
+    
+}
+.h3{
+    left: 30px;
+}
+.table{
+    border: 1px solid black;
+        border-collapse: collapse;
+        width: 1050px;
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        
+}
+    .header
+    {
+        /* border: 1px solid black; */
+        border-collapse: collapse;
+        width: 1050px;
+        height: 48px;
+        display: flex;
+        flex-direction: row;
+
+       
+    }
+
+    .header{
+        background-color: rgba(0, 0, 0, 0.687);
+        color: white;
+
+    }
+    td{
+        width: 1090px;
+     height: 50px;
+     padding-left: 20px;
+
+    }
+
+    .data1{
+        /* border: 1px solid black;  */
+         /* border-collapse: collapse;  */
+        width: 1090px;
+     height: 50px;
+     padding-left: 50px;
+
+    }
+    .data2{
+        /* border: 1px solid black;  */
+         /* border-collapse: collapse;  */
+        width: 1090px;
+     height: 50px;
+     padding-left: 50px;
+  
+
+    }
+    .table-section{
+        display: flex;
+        justify-content: center;
+
+    }

@@ -1,0 +1,157 @@
+.header-container{
+  
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+   padding-left: 100px;
+   align-items: center;
+   justify-content: flex-start;
+
+}
+.main-container{
+    height: 120vh;
+    width: 100vw;
+    border: 5px black;
+    display: flex;
+    flex-direction: column;
+    align-content: center; 
+}
+
+.logo{
+    height: 44px;
+    width: 42px;
+    
+}
+.box2{
+    padding-top: 10px;
+}
+.form-space{
+    height:120vh;
+    width: 60vw;
+    background-color: rgba(238, 241, 242, 0.819);
+    flex-direction:column;
+    justify-content: flex-start;
+    border: 5px black;
+    justify-self: center;
+    position: relative;
+    left: 220px;
+    right: 35px;
+}
+.form-content{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-items:flex-start; 
+    }
+    .text-input1{
+        height: 40px;
+        display: flex;
+        padding-right:250px;
+        border-radius:5px;
+        border:none;
+       
+    }
+    
+    .img1{
+        height:38px ;
+      padding-left: 10px;
+        padding-top: 18px;
+       
+
+    }
+    .profile{
+        font-size: 18px;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        
+    }
+    .label3{
+        height:38px ;
+        padding-left: 10px;
+        padding-top: 18px;
+
+    }
+
+.label4{
+    height:38px ;
+    padding-top: 18px;
+    display: flex;
+    padding-right: 30px;
+}
+.form-contentBox{
+    display: flex;
+    flex-direction: row;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    padding-left: 38px;
+        padding-top: 18px;
+}
+.label-gender{
+    padding-top: 37px;
+}
+#salary{
+   
+        /* border:none; */
+     
+        /* padding: 20px 20px;
+        border-radius:5px;
+        width: 400px;
+        /* height: 10px;  */
+        width: 180px;
+        height: 40px; 
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 38px;
+        padding-top: 18px;
+        width:300px;
+        
+}
+
+#start-date{
+    width: 120px;
+    height: 40px;
+}
+#start-month{
+    width: 120px;
+    height: 40px;
+}
+#start-year{
+    width: 120px;
+    height: 40px;
+}
+
+.row-button
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+#cancelform{
+    height: 50px;
+    width: 100px;
+    
+}
+#submitform{
+    height: 50px;
+    width: 100px;
+    margin-left: 340px;
+    
+}
+#resetform{
+    height: 50px;
+    width: 100px;
+    
+}
+   
+
